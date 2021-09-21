@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+.nameB{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+
+.buttonPDF{
+    height: 40px;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-flex;
+    letter-spacing: 0.133984px;
+    background: #3666F7;
+    line-height: 20px;
+    border-radius: 6px;
+    padding-right: 29px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 29px;
+    color:#FFFFFF;
+}
+
+.buttonPDF:hover{
+    background: #0940E7;
+    cursor: pointer;
+}
+
+.top{
+    display: flex ;
+    justify-content: space-between;
+    background: #F5F5F5;
+    padding-top: 46px;
+    padding-left: 64px;
+    padding-right: 64px;
+    height: 250px;
+   
+}
+
+
+.page{
+    position: absolute;
+    box-sizing: border-box;
+    width: 900px;
+    height: 1200px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 126px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    font-family: "Lato";
+    font-style: normal;
+    padding: 70px;
+   
+}
+
+.howToConnect{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.myName{
+
+    
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #252525;
+}
+.mySpecialization{
+    
+   
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #555555;
+}
+.myPhoto{
+    width: 70px;
+    height: 69.92px;
+    left: 340px;
+    top: 196px;
+
+    background: url(hF-OWCAw8mA1.jpg);
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.nameAndSpecialization{
+    align-items: center;
+    padding-left: 24px; 
+}
+
+.fotoName{
+    display:inline-flex;
+}
+
+.mailAndTelephone{
+    /*width: 162px; убрал, т.к. почта не влезала и смещалась вправо к границе листа*/
+    height: 65px;
+    text-align: right;
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #AAAAAA;
+}
+.professonalPosition{
+    padding-top: 42px;
+    
+    width: 740px;
+    
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #555555;
+}
+
+.levelOfProffesionalism{
+    margin-top: 48px;
+    
+}
+
+.header{
+    height: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.Edu{
+    width: 82px;
+    color: #A066F8;
+    padding-bottom: 16px;
+}
+.Skil{
+    width: 82px;
+    color: #EE5035;
+    padding-bottom: 16px;
+}
+.university{
+    width: 445px;
+    height: 48px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #252525;
+}
+.studWork{
+    width: 453px;
+    height: 88px;
+    padding-bottom: 16px;
+    
+   /* font-weight: bold;*/
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #555555;
+}
+.data{
+    width: 153px;
+    height: 17px;
+
+
+   
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #CCCCCC;
+}
+.skilLang{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    display: inline-flex;
+}
+.flexinl{
+    display:flex;
+    justify-content: space-between;
+}
+.skilLang1{
+    width: 78px;
+    height: 180px;
+    padding-right: 50px;
+}
+.skilLang2{
+    width: 85px;
+    height: 120px;
+}
+.IntExp{
+    width: 223px;
+    color: #32CD88;
+}
+
+.head1{
+    width: 445px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #252525;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pad40dp{
+    padding-top: 40px;
+}
+.enum{
+    width: 453px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #555555;
+    padding-bottom: 12px;
+}
+.Lang{
+    width: 104px;
+    color: #38BEF8;
+}
+
+.LangS{
+    width: 61px;
+    height: 90px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    padding-top: 16px;
+    padding-right: 152px;
+}
+
+.projects{
+    padding-top: 28px;
+    padding-bottom: 16px;
+    width: 223px;
+    color: #FB746A;
+}
+
+.projects1{
+   
+    height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #252525;
+    padding-bottom: 8px;
+}
+.projects2{
+    width: 445px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #252525;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.social_profiles{
+    
+    position: absolute;
+    bottom: 70px;
+    right: 70px;    
+    
+    
+}
+.SocialNet{
+    
+    color: #AAAAAA;
+	width: 28px;
+    height: 28px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    
+}
+.SocialNet:hover{
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.SocialNetTwitter:hover{
+    background: #33A4EC;
+}
+
+.SocialNetVK:hover{
+    background: #0940E7;
+}
+.SocialNetInsta:hover{
+    background: #E6528A;
+}
